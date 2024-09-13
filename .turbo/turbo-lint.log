@@ -1,0 +1,4 @@
+
+> @nubeio/tailwind-config@0.1.0 lint /Users/riteshakya/Projects/nubeIO/flex/tooling/tailwind
+> eslint . "--fix" "--cache" "--cache-location" "node_modules/.cache/.eslintcache"
+
