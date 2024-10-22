@@ -16,6 +16,10 @@ export default {
           DEFAULT: 'rgba(var(--primary))',
           foreground: 'rgba(var(--primary-foreground))'
         },
+        highlight: {
+          DEFAULT: 'rgba(var(--highlight))',
+          foreground: 'rgba(var(--highlight-foreground))'
+        },
         secondary: {
           DEFAULT: 'rgba(var(--secondary))',
           foreground: 'rgba(var(--secondary-foreground))'
@@ -69,8 +73,8 @@ export default {
       }
     },
     fontFamily: {
-      sans: ['var(--font-sans)', ...fontFamily.sans],
-      mono: ['var(--font-mono)', ...fontFamily.mono]
+      poppins: ['var(--font-poppins)', ...fontFamily.sans],
+      lexend: ['var(--font-lexend)', ...fontFamily.sans]
     },
     plugins: []
   }
