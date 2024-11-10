@@ -31,7 +31,10 @@
     "root": true,
     "extends": [
       "@nubeio/eslint-config/base"
-    ]
+    ],
+    "rules": {
+      "import/no-default-export": "off"
+    }
   },
   "prettier": "@nubeio/prettier-config"
 }
