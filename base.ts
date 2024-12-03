@@ -39,6 +39,16 @@ export default {
         card: {
           DEFAULT: 'rgba(var(--card))',
           foreground: 'rgba(var(--card-foreground))'
+        },
+        sidebar: {
+          DEFAULT: 'rgba(var(--sidebar-background))',
+          foreground: 'rgba(var(--sidebar-foreground))',
+          primary: 'rgba(var(--sidebar-primary))',
+          'primary-foreground': 'rgba(var(--sidebar-primary-foreground))',
+          accent: 'rgba(var(--sidebar-accent))',
+          'accent-foreground': 'rgba(var(--sidebar-accent-foreground))',
+          border: 'rgba(var(--sidebar-border))',
+          ring: 'rgba(var(--sidebar-ring))'
         }
       },
       borderColor: {
