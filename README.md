@@ -1,6 +1,6 @@
-## NubeIO Tailwind Tooling
+## PJNube Tailwind Tooling
 
-This repository contains various tooling configurations for NubeIO internal projects.
+This repository contains various tooling configurations for PJNube internal projects.
 
 ### Configuration
 
@@ -11,7 +11,7 @@ To use the shared configuration in your project, you need to add this repository
 Run the following command in your project to add the configuration as a submodule:
 
 ```bash
-git submodule add git@github.com:NubeIO/tailwind-config.git tooling/tailwind
+git submodule add git@github.com:PJNube/tailwind-config.git tooling/tailwind
 ```
 
 #### Step 2: Initialize All Submodules
