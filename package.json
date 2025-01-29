@@ -1,5 +1,5 @@
 {
-  "name": "@nubeio/tailwind-config",
+  "name": "@pjnube/tailwind-config",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -20,9 +20,9 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@nubeio/eslint-config": "workspace:*",
-    "@nubeio/prettier-config": "workspace:*",
-    "@nubeio/tsconfig": "workspace:*",
+    "@pjnube/eslint-config": "workspace:*",
+    "@pjnube/prettier-config": "workspace:*",
+    "@pjnube/tsconfig": "workspace:*",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
@@ -30,11 +30,11 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@nubeio/eslint-config/base"
+      "@pjnube/eslint-config/base"
     ],
     "rules": {
       "import/no-default-export": "off"
     }
   },
-  "prettier": "@nubeio/prettier-config"
+  "prettier": "@pjnube/prettier-config"
 }
