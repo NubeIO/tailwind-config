@@ -14,7 +14,10 @@ export default {
         foreground: 'rgba(var(--foreground))',
         primary: {
           DEFAULT: 'rgba(var(--primary))',
-          foreground: 'rgba(var(--primary-foreground))'
+          foreground: 'rgba(var(--primary-foreground))',
+          strong: 'rgba(var(--primary-strong))',
+          light: 'rgba(var(--primary-light))',
+          extralight: 'rgba(var(--primary-extralight))'
         },
         secondary: {
           DEFAULT: 'rgba(var(--secondary))',
