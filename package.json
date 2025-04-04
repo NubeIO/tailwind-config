@@ -23,6 +23,7 @@
     "@pjnube/eslint-config": "workspace:*",
     "@pjnube/prettier-config": "workspace:*",
     "@pjnube/tsconfig": "workspace:*",
+    "@tailwindcss/typography": "^0.5.16",
     "eslint": "catalog:",
     "prettier": "catalog:",
     "typescript": "catalog:"
