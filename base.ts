@@ -52,61 +52,7 @@ export default {
           'accent-foreground': 'rgba(var(--sidebar-accent-foreground))',
           border: 'rgba(var(--sidebar-border))',
           ring: 'rgba(var(--sidebar-ring))'
-        },
-        'wires-socket': {
-          border: {
-            DEFAULT: 'rgba(var(--wires-socket-border-any))',
-            int: 'rgba(var(--wires-socket-border-int))',
-            float: 'rgba(var(--wires-socket-border-float))',
-            bool: 'rgba(var(--wires-socket-border-bool))',
-            string: 'rgba(var(--wires-socket-border-string))',
-            date: 'rgba(var(--wires-socket-border-date))',
-            json: 'rgba(var(--wires-socket-border-json))',
-            any: 'rgba(var(--wires-socket-border-any))'
-          },
-          bg: {
-            DEFAULT: 'rgba(var(--wires-socket-bg-any))',
-            int: 'rgba(var(--wires-socket-bg-int))',
-            float: 'rgba(var(--wires-socket-bg-float))',
-            bool: 'rgba(var(--wires-socket-bg-bool))',
-            string: 'rgba(var(--wires-socket-bg-string))',
-            date: 'rgba(var(--wires-socket-bg-date))',
-            json: 'rgba(var(--wires-socket-bg-json))',
-            any: 'rgba(var(--wires-socket-bg-any))'
-          }
         }
-      },
-      backgroundImage: {
-        'wires-modbus': 'var(--wires-modbus)',
-        'wires-boolean': 'var(--wires-boolean)',
-        'wires-const': 'var(--wires-const)',
-        'wires-count': 'var(--wires-count)',
-        'wires-filter': 'var(--wires-filter)',
-        'wires-folder': 'var(--wires-folder)',
-        'wires-hvac': 'var(--wires-hvac)',
-        'wires-latch': 'var(--wires-latch)',
-        'wires-link': 'var(--wires-link)',
-        'wires-math': 'var(--wires-math)',
-        'wires-numeric-transform': 'var(--wires-numeric-transform)',
-        'wires-streams': 'var(--wires-streams)',
-        'wires-time': 'var(--wires-time)',
-        'wires-rubix': 'var(--wires-rubix)',
-        'wires-alarms': 'var(--wires-alarms)',
-        'wires-histories': 'var(--wires-histories)',
-        'wires-rql': 'var(--wires-rql)',
-        'wires-schedules': 'var(--wires-schedules)',
-        'wires-mqtt': 'var(--wires-mqtt)',
-        'wires-points': 'var(--wires-points)',
-        'wires-action': 'var(--wires-action)',
-        'wires-debug': 'var(--wires-debug)',
-        'wires-flow': 'var(--wires-flow)',
-        'wires-state': 'var(--wires-state)',
-        'wires-query': 'var(--wires-query)',
-        'wires-event': 'var(--wires-event)',
-        'wires-logic': 'var(--wires-logic)',
-        'wires-compare': 'var(--wires-compare)',
-        'wires-statistics': 'var(--wires-statistics)',
-        'wires-none': 'var(--wires-none)'
       },
       borderColor: {
         DEFAULT: 'rgba(var(--border))'
